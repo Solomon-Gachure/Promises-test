@@ -11,10 +11,10 @@ const Promises = () => {
         }
     })
     p.then((message)=>{
-        console.log('This is true' + message)
+        console.log('This is true ' + message)
     })
     .catch((message)=>{
-        console.log('This is false' + message)
+        console.log('This is false ' + message)
     })
   return (
     <div>
